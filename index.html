@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bundle & Save</title>
+  <link rel="stylesheet" href="style.css" />
+
+</head>
+<body>
+
+  <h2>Bundle & Save</h2>
+
+  <div class="bundle-box" data-price="195">
+    <input type="radio" name="bundle" />
+    <div class="bundle-header">
+      <div>
+        <div>1 Pair</div>
+        <div class="bundle-price">DKK 195.00</div>
+      </div>
+      <div>50% OFF</div>
+    </div>
+    <div class="options" data-items="2"></div>
+  </div>
+
+  <div class="bundle-box" data-price="345">
+    <input type="radio" name="bundle" checked />
+    <div class="bundle-header">
+      <div>
+        <div>2 Pair</div>
+        <div class="bundle-price">DKK 345.00 <span class="bundle-discount">DKK 195.00</span></div>
+      </div>
+      <div class="most-popular">Most Popular<br />40% OFF</div>
+    </div>
+    <div class="options" data-items="2"></div>
+  </div>
+
+  <div class="bundle-box" data-price="528">
+    <input type="radio" name="bundle" />
+    <div class="bundle-header">
+      <div>
+        <div>3 Pair</div>
+        <div class="bundle-price">DKK 528.00</div>
+      </div>
+      <div>60% OFF</div>
+    </div>
+    <div class="options" data-items="2"></div>
+  </div>
+
+  <div class="shipping-text">Free 2 Day Shipping</div>
+  <div class="total">Total: DKK <span id="total">345.00</span></div>
+  <button class="add-to-cart">+ Add to Cart</button>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
